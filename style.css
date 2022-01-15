@@ -33,8 +33,12 @@ body{
  }
  .heads{
     display: flex;
+    transition-timing-function: ease;
+    
  }
- 
+.heads:hover{
+   width: 300px;
+}
   
   button{
      background-color:#ed1c69ec ;
@@ -55,7 +59,11 @@ body{
     width: 440px;
     height: 417px;
     margin-right: 70px;
+   
+    
  }
+
+ 
  .fa-arrow-right{
     margin-left: 15px;
  }
