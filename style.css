@@ -15,22 +15,11 @@ body{
 /*-----------
  header style 
  ---------------*/
- header{
-    margin: 80px;
- }
- nav li{
-    list-style: none;
-    margin-left: 30px;
-    font-size: 15px;
- }
- nav {
-    display: flex;
- }
- nav ul{
-    display: flex;
-    margin-left: 500px;
-   
- }
+
+.heading{
+   margin: 80px;
+}
+ 
  .heads{
     display: flex;
     transition-timing-function: ease;
