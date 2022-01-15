@@ -8,13 +8,16 @@
 
 body{
    font-family: 'Poppins', sans-serif;
-   margin: 80px;
+   margin: 0px;
 }
 
  
 /*-----------
  header style 
  ---------------*/
+ header{
+    margin: 80px;
+ }
  nav li{
     list-style: none;
     margin-left: 30px;
@@ -59,8 +62,11 @@ body{
  /* --------------
   section style 
   ----------------*/
+  main{
+     margin: 80px;
+  }
   .container{
-     background-color: rgb(245, 244, 244);
+     background-color: rgb(245, 237, 237);
      margin-top: 200px;
      border-radius: 20px;
   }
@@ -71,6 +77,7 @@ body{
  .collections{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(238, 226, 226);
   
  }
  .collection{
@@ -95,3 +102,28 @@ body{
     color: rgba(255, 0, 0, 0.898);
    margin-left: 1050px;
  }
+
+
+ /*---------------
+  footer 
+  ------------*/
+  footer{ 
+     text-align: center;
+     background-color:  #0A0826;
+     color: white;
+     padding: 20px;
+     
+  }
+  .Social-network-icon i{
+     
+     margin-left: 15px;
+  }
+  footer h2{
+     font-size: 24px;
+     margin: 0;
+  }
+  footer h5{
+     font-size: 14px;
+     margin: 0;
+  }
+ 
